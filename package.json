@@ -1,0 +1,28 @@
+{
+  "name": "@aboutbits/prettier-config",
+  "version": "0.0.1",
+  "description": "AboutBits' prettier config",
+  "exports": "./index.json",
+  "engines": {
+    "npm": ">=8",
+    "node": ">=16"
+  },
+  "scripts": {
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aboutbits/prettier-config"
+  },
+  "keywords": [
+    "prettier-config",
+    "prettier"
+  ],
+  "author": "AboutBits",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aboutbits/prettier-config/issues"
+  },
+  "homepage": "https://github.com/aboutbits/prettier-config"
+}
