@@ -19,7 +19,6 @@ jobs:
       - uses: aboutbits/github-actions-node/setup-and-install@v1
         with:
           node-version: ${{ env.NODE_VERSION }}
-      - run: npm install
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
