@@ -1,6 +1,6 @@
 {
   "name": "@aboutbits/prettier-config",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "AboutBits' prettier config",
   "exports": "./index.json",
   "engines": {
@@ -8,7 +8,6 @@
     "node": ">=16"
   },
   "scripts": {
-    "version": "git add -A src",
     "postversion": "git push && git push --tags"
   },
   "repository": {
