@@ -21,4 +21,4 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
       - run: npm publish
         env:
-          NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
