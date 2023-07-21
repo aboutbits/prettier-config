@@ -2,6 +2,10 @@
   "name": "@aboutbits/prettier-config",
   "version": "1.0.4",
   "description": "AboutBits' prettier config",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": "./index.json",
   "engines": {
     "npm": ">=8",
