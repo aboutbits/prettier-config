@@ -27,5 +27,6 @@
   "bugs": {
     "url": "https://github.com/aboutbits/prettier-config/issues"
   },
-  "homepage": "https://github.com/aboutbits/prettier-config"
+  "homepage": "https://github.com/aboutbits/prettier-config",
+  "prettier": "./index.json"
 }
