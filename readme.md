@@ -14,10 +14,24 @@ npm i -D @aboutbits/prettier-config
 ```
 
 Edit `package.json`:
+
 ```json
 {
   // ...
   "prettier": "@aboutbits/prettier-config"
+}
+```
+
+### Extend the preset
+
+Create a `.prettierrc.js` file:
+
+```js
+const aboutBitsConfig = require('@aboutbits/prettier-config')
+
+module.exports = {
+  ...aboutBitsConfig,
+  singleQuote: false
 }
 ```
 
