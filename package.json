@@ -1,6 +1,6 @@
 {
   "name": "@aboutbits/prettier-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "AboutBits' prettier config",
   "private": false,
   "publishConfig": {
