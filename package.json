@@ -12,6 +12,7 @@
     "node": "^16"
   },
   "scripts": {
+    "format": "prettier -w .",
     "postversion": "git push && git push --tags"
   },
   "repository": {
@@ -28,5 +29,8 @@
     "url": "https://github.com/aboutbits/prettier-config/issues"
   },
   "homepage": "https://github.com/aboutbits/prettier-config",
-  "prettier": "./index.json"
+  "prettier": "./index.json",
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  }
 }

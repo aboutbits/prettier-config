@@ -31,7 +31,7 @@ const aboutBitsConfig = require('@aboutbits/prettier-config')
 
 module.exports = {
   ...aboutBitsConfig,
-  singleQuote: false
+  singleQuote: false,
 }
 ```
 
