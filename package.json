@@ -32,5 +32,8 @@
   "prettier": "./index.json",
   "devDependencies": {
     "prettier": "^3.0.0"
+  },
+  "peerDependencies": {
+    "prettier-plugin-tailwindcss": "^0.4.1"
   }
 }
