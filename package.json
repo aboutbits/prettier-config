@@ -8,8 +8,8 @@
   },
   "exports": "./index.json",
   "engines": {
-    "npm": "^8",
-    "node": "^16"
+    "npm": ">=8",
+    "node": ">=16"
   },
   "scripts": {
     "format": "prettier -w .",
