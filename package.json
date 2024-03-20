@@ -2,10 +2,25 @@
   "name": "@aboutbits/prettier-config",
   "version": "1.6.1",
   "description": "AboutBits' prettier config",
+  "author": "AboutBits",
+  "license": "MIT",
+  "homepage": "https://github.com/aboutbits/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aboutbits/prettier-config"
+  },
+  "bugs": {
+    "url": "https://github.com/aboutbits/prettier-config/issues"
+  },
+  "keywords": [
+    "prettier-config",
+    "prettier"
+  ],
   "private": false,
   "publishConfig": {
     "access": "public"
   },
+  "prettier": "./index.json",
   "exports": "./index.json",
   "engines": {
     "npm": ">=8",
@@ -15,21 +30,6 @@
     "format": "prettier -w .",
     "postversion": "git push && git push --tags"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aboutbits/prettier-config"
-  },
-  "keywords": [
-    "prettier-config",
-    "prettier"
-  ],
-  "author": "AboutBits",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aboutbits/prettier-config/issues"
-  },
-  "homepage": "https://github.com/aboutbits/prettier-config",
-  "prettier": "./index.json",
   "peerDependencies": {
     "prettier": "^3.0.0",
     "prettier-plugin-tailwindcss": "^0.4.1"
