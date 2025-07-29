@@ -23,8 +23,8 @@
   "prettier": "./index.json",
   "exports": "./index.json",
   "engines": {
-    "npm": ">=8",
-    "node": ">=16"
+    "npm": ">=10",
+    "node": ">=18"
   },
   "scripts": {
     "format": "prettier -w .",
