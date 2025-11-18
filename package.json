@@ -18,6 +18,7 @@
   ],
   "private": false,
   "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
     "access": "public"
   },
   "prettier": "./index.json",
